@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Responsive Cube card</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/3d_cube_style.css">
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="img/1.jpg" alt="one">
+            </div>
+            <div class="content">
+                <h2>Actress <br><span>One Actress</span></h2>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="img/2.jpg" alt="one">
+            </div>
+            <div class="content">
+                <h2>Actress <br><span>Two Actress</span></h2>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="img/3.jpg" alt="one">
+            </div>
+            <div class="content">
+                <h2>Actress <br><span>Three Actress</span></h2>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="img/4.jpg" alt="one">
+            </div>
+            <div class="content">
+                <h2>Actress <br><span>Four Actress</span></h2>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="img/2.jpg" alt="one">
+            </div>
+            <div class="content">
+                <h2>Actress <br><span>Five Actress</span></h2>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="img/4.jpg" alt="one">
+            </div>
+            <div class="content">
+                <h2>Actress <br><span>Six Actress</span></h2>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="img/4.jpg" alt="one">
+            </div>
+            <div class="content">
+                <h2>Actress <br><span>Seven Actress</span></h2>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="img/4.jpg" alt="one">
+            </div>
+            <div class="content">
+                <h2>Actress <br><span>Eight Actress</span></h2>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="img/4.jpg" alt="one">
+            </div>
+            <div class="content">
+                <h2>Actress <br><span>Nine Actress</span></h2>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="img/4.jpg" alt="one">
+            </div>
+            <div class="content">
+                <h2>Actress <br><span>Ten Actress</span></h2>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Link Swiper's JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript">
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'cube',
+            grabCursor: true,
+            cubeEffect: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+</body>
+</html>
